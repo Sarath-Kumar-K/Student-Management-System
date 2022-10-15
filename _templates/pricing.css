@@ -1,0 +1,79 @@
+.block h1
+{
+    text-align: center;
+    color:#024052;
+}
+.block
+{
+    height:350px;
+    background-color:white;
+    border: 1px solid black;
+}
+.header,.block
+{
+    left:15%;
+    right:5%;
+    position: relative;
+    width:63%;
+}
+.menu
+{
+top:30%;
+bottom:5%;
+height:50%;
+width:20%;
+position:absolute;
+background-color: lightblue;
+border: 1px solid black;
+border-radius: 10px;
+
+}
+#insert{
+    margin-top: 0px;
+    margin-left: 25px;;
+}
+#display
+{
+left: 335px;
+}
+#search
+{
+    right:2%;
+}
+.header
+{
+    height:135px;
+    background-color:red;
+}
+#banner
+{
+    position:absolute;
+    top:0%;
+    right:0%;
+    left:0%;
+}
+.menu p a
+{
+    border-radius: 20px;
+    text-decoration: none;
+    color: white;
+    background-color: #f55c25;
+    font-size: x-large;
+    padding: 3px;
+    border:1px solid #024052;
+}
+.menu h4,p
+{
+    text-align: center;
+}
+.menu p a:hover
+{
+    color: white;
+    background-color: #024052;
+}
+.button
+{
+    position: absolute;
+    bottom: 1%;
+    left: 30%;
+}
